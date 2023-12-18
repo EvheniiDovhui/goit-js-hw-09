@@ -22,7 +22,7 @@ function startEpilepcy() {
   const idInt = setInterval(() => {
     currentColor = getRandomHexColor();
     body.style.backgroundColor = currentColor;
-    body.lastElementChild.lastChild.textContent = ` ${currentColor}`;
+    text.lastChild.textContent = ` ${currentColor}`;
   }, 1000);
   temp = idInt;
   currentColor = getRandomHexColor();
